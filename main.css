@@ -1,0 +1,76 @@
+@font-face {
+    src: url(./assets/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-family: sans-serif;
+}
+
+
+:root{
+    --blue:#16ace8;
+     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boss-text {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.mini-text {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+
+
+.container {
+    margin-top: 116px;
+    display: flex;
+    align-items: flex-end;
+    gap: 76px;
+}
+
+.picture {
+    display: flex;
+    gap: 20px;
+
+}
+
+main {
+  margin: 0px 249px;
+}
+
+.blue-text{
+    color: var(--blue);
+}
+
+.line{
+    position: absolute;
+    margin-top: 31px;
+}
